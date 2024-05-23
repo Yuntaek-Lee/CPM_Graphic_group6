@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct CPM_Graphic_group6App: App {
+struct CPM_Graphic : App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Activity.self)
     }
 }
